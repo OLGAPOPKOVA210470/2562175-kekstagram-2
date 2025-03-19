@@ -21,3 +21,16 @@ function checkPalindrome(text) {
 console.log(checkPalindrome('А РОЗА УПАЛА НА ЛАПУ АЗОРА'));
 console.log(checkPalindrome('проверяемая строка'));
 console.log('ПРОВЕРКА, ЯВЛЯЕТСЯ ЛИ СТРОКА ПАЛИНДРОМОМ, ЗАВЕРШЕНА');
+
+/*const renderRectangle = (v, h) => {
+  let result = '';
+  for (let i = 1; i <= v; i++) {
+    for (let j = 1; j <= h; j++) {
+      result += '*';
+    }
+    result += '\n';
+  }
+  return result;
+}
+
+console.log(renderRectangle(6, 5))*/
